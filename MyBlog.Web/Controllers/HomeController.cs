@@ -8,11 +8,6 @@ namespace MyBlog.Web.Controllers
         {
             return View();
         }
-
-        public IActionResult FakeAction()
-        {
-            throw new NotImplementedException();
-        }
     }
 
 }
