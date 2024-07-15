@@ -18,19 +18,23 @@ namespace MyBlog.Web.Models
                 context.Models.AddRange(
                     new TestModel
                     {
-                        Name = "Anders"
+                        Name = "Anders",
+                        Age = 34
                     },
                     new TestModel
                     {
-                        Name = "Cæcilie"
+                        Name = "Cæcilie",
+                        Age = 33
                     },
                     new TestModel
                     {
-                        Name = "Emilie"
+                        Name = "Emilie",
+                        Age = 2
                     },
                     new TestModel
                     {
-                        Name = "Ellie"
+                        Name = "Ellie",
+                        Age = 0
                     }
                 );
                 context.SaveChanges();
